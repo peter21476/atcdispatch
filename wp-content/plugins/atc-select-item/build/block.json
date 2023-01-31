@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/atc-select-item",
+  "version": "0.1.0",
+  "title": "Atc Select Item",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Test Title"
+    },
+    "subheader": {
+      "type": "string",
+      "default": "Subheader"
+    },
+    "image": {
+      "type": "string"
+    },
+    "buttonlink": {
+      "type": "string",
+      "default": ""
+    },
+    "content": {
+      "type": "string",
+      "default": "Some Content"
+    }
+  },
+  "textdomain": "atc-select-item",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

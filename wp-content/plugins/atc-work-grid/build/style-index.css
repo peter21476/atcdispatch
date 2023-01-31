@@ -1,0 +1,38 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-atc-work-grid {
+  margin: 0;
+}
+
+.atc-work-item {
+  background: #0f141f;
+  padding: 20px;
+}
+.atc-work-item .atc-work-image {
+  margin-bottom: 20px;
+}
+.atc-work-item .atc-work-image img {
+  width: 100%;
+}
+.atc-work-item .atc-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.atc-work-item .atc-title-wrapper h4 {
+  font-size: 24px;
+  color: #fafcff;
+}
+.atc-work-item .atc-title-wrapper i {
+  font-size: 24px;
+  color: #fafcff;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

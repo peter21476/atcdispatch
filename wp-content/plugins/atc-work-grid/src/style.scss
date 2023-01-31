@@ -1,0 +1,34 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-atc-work-grid {
+	margin: 0;
+}
+
+.atc-work-item {
+	background: #0f141f;
+	padding: 20px;
+	.atc-work-image {
+		margin-bottom: 20px;
+		img {
+			width: 100%;
+		}
+	}
+	.atc-title-wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		h4 {
+			font-size: 24px;
+			color: #fafcff;
+		}
+		i {
+			font-size: 24px;
+			color: #fafcff;
+		}
+	}
+}

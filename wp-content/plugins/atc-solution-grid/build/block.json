@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/atc-solution-grid",
+  "version": "0.1.0",
+  "title": "Atc Solution Grid",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Test Title"
+    },
+    "text": {
+      "type": "string",
+      "default": "Some text"
+    },
+    "image": {
+      "type": "string"
+    }
+  },
+  "textdomain": "atc-solution-grid",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

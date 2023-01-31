@@ -1,0 +1,50 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.atc-review-wrapper {
+  background: #0f141f;
+  padding: 20px;
+}
+.atc-review-wrapper .atc-reviewer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.atc-review-wrapper .atc-reviewer-wrapper .atc-reviewer-image {
+  margin-right: 10px;
+}
+.atc-review-wrapper .atc-reviewer-wrapper .atc-reviewer-image img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+.atc-review-wrapper .atc-reviewer-wrapper .atc-reviewer-details .atc-reviewer-name {
+  font-size: 18px;
+  color: #fafcff;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+.atc-review-wrapper .atc-reviewer-wrapper .atc-reviewer-details .atc-reviewer-company {
+  color: #fafafa;
+  font-size: 16px;
+  line-height: 141%;
+}
+.atc-review-wrapper .atc-review-rating {
+  margin-bottom: 15px;
+}
+.atc-review-wrapper .atc-review-rating span {
+  margin-right: 5px;
+}
+.atc-review-wrapper .atc-review-rating span i {
+  color: #ff3514;
+  font-size: 10px;
+}
+.atc-review-wrapper .atc-review-content {
+  color: #fafafa;
+  font-size: 18px;
+  line-height: 140%;
+}/*# sourceMappingURL=style.css.map */

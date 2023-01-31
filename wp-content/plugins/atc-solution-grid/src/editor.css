@@ -1,0 +1,18 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-atc-solution-grid {
+  border: 1px dotted #f00;
+}
+
+.atc-sol-card {
+  background: black;
+}
+.atc-sol-card h4 {
+  color: white;
+}
+.atc-sol-card p {
+  color: white;
+}/*# sourceMappingURL=editor.css.map */

@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/atc-work-grid",
+	"version": "0.1.0",
+	"title": "Atc Work Grid",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"heading": {
+			"type": "string",
+			"default": "Test Title"
+		},
+		"image": {
+			"type": "string"
+		}
+	},
+	"textdomain": "atc-work-grid",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

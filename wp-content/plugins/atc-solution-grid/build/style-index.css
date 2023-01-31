@@ -1,0 +1,55 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-atc-solution-grid {
+  margin-bottom: 0;
+}
+
+.atc-sol-card {
+  background-color: #0f141f;
+  padding: 12px;
+}
+.atc-sol-card .atc-sol-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.atc-sol-card .atc-sol-icon {
+  padding: 10px;
+  background: #1b202b;
+  display: inline-block;
+}
+.atc-sol-card .atc-sol-icon img {
+  width: 39px;
+  height: 39px;
+}
+.atc-sol-card .atc-sol-title h4 {
+  color: #fafcff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 125%;
+  display: inline-block;
+}
+.atc-sol-card .atc-sol-text {
+  font-size: 16px;
+  line-height: 141%;
+  font-weight: normal;
+  color: #aab0bc;
+  padding-top: 20px;
+  display: none;
+}
+.atc-sol-card .atc-sol-switch {
+  cursor: pointer;
+}
+.atc-sol-card .atc-sol-switch i {
+  color: #fafcff;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
